@@ -4,7 +4,7 @@
 */
 function wc_ru_get_hover_thumbnails( $css_id, $image, $image_hover ) {
 		// apply hover style	
-		$output .= '<style type="text/css">';
+		$output = '<style type="text/css">';
 		$output .= '#' . $css_id . ' {background-image:url(' . $image . ');display: block;background-size: contain;background-repeat: no-repeat;} ';
 		$output .= '#' . $css_id . ':hover {background-image:url(' . $image_hover . ');}';
 		$output .= '#' . $css_id . ' img {visibility: hidden}';
