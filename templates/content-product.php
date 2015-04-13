@@ -55,8 +55,7 @@ function wchover_get_product_thumbnail( $size = 'shop_catalog', $placeholder_wid
 		$output = '<img id="' . $css_id . '" src="'. $wc_hover_plugin_url .'/img/empty-150x150.png" alt="' . $post->post_name  . '" width="auto">';
 		$output .= wc_ru_get_hover_thumbnails($css_id, $image, $image_hover );
 
-	} else {
-		$output = '<img src="'. woocommerce_placeholder_img_src() .'" alt="Placeholder" width="' . $placeholder_width . '" height="' . $placeholder_height . '" />';
+	} else {		$output = wc_placeholder_img();
 	}
 
 	echo $output;
