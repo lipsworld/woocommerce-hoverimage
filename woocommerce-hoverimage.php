@@ -5,7 +5,7 @@ Plugin URI: N/A
 Description: WooCommerce custom plugin for Hover image on product and categories
 Author: Samuel Boutron
 Author URI: samuel.boutron@gmail.com
-Version: 1.0.351204
+Version: 1.2
 
 	Copyright: © 2012 Samuel Boutron (email : samuel.boutron@gmail.com)
 	License: GNU General Public License v3.0
